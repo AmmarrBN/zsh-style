@@ -12,7 +12,7 @@ git clone https://github.com/ohmyzsh/ohmyzsh.git "$HOME/.oh-my-zsh" --depth 1
 mv "$HOME/.zshrc" "$HOME/.zshrc.bak.$(date +%Y.%m.%d-%H:%M:%S)"
 cp "$HOME/.oh-my-zsh/templates/zshrc.zsh-template" "$HOME/.zshrc"
 sed -i '/^ZSH_THEME/d' "$HOME/.zshrc"
-sed -i '1iZSH_THEME="agnoster"' "$HOME/.zshrc"
+sed -i '1iZSH_THEME="xiong chiamiov"' "$HOME/.zshrc"
 echo "alias chcolor='$HOME/.termux/colors.sh'" >> "$HOME/.zshrc"
 echo "alias chfont='$HOME/.termux/fonts.sh'" >> "$HOME/.zshrc"
 
